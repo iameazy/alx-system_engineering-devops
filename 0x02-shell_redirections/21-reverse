@@ -1,2 +1,2 @@
 #!/bin/bashe
-while read -r line; do rev <<< "$line"; done
+read -r input && echo -n "$input" | rev
