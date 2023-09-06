@@ -1,2 +1,2 @@
 #!/bin/bash
-echo find . -type f -name "*.js" -delete
+find . -name "*.is" -type f -print0 | xargs -0 /bin/rm -f
