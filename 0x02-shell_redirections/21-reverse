@@ -1,2 +1,2 @@
 #!/bin/bashe
-read -r input && echo -n "$input" | rev
+$ echo "Hello, World!" | read -r input && echo -n "$input" | rev !dlroW ,olleH
