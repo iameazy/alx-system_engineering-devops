@@ -1,0 +1,2 @@
+#!/bin/bash
+echo file_name="ls_cwd_content"; ls -la > "$file_name"; if [ -e "$file_name" ]; then echo "File '$file_name' created or overwritten successfully."; else echo "Failed to create or overwrite the file."; fi
