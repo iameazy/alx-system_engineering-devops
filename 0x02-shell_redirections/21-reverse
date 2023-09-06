@@ -1,2 +1,2 @@
-#!/bin/bash
-while read -r line; do rev <<< "$line"; done
+#!/bin/bashe
+echo while read -r line; do rev <<< "$line"; done
