@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -e "iacta" ]; then line=$(head -n 3 "iacta" | tail -n 1); echo "The third line of 'iacta' is: $line"; else echo "The file 'iacta' does not exist."; fi
+[ -e "iacta" ] && line=$(head -n 3 "iacta" | tail -n 1) && echo "$line" || echo "The file 'iacta' does not exist."
